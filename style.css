@@ -1,0 +1,1172 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+* {
+    font-family: 'Montserrat';
+    color: var(--prim-cul--);
+    color: var(--sec-cul--);
+}
+
+body{
+    margin: 0;
+} 
+
+html{
+    scroll-behavior: smooth;
+    animation-duration: 10s;
+}
+
+:root {
+    --prim-cul--:#08E8E8;
+    --sec-cul--:#26274F;
+}
+
+.wrapper {
+    max-width: 1192px;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    margin: 0 auto;
+    position: relative;
+}
+
+.headeru{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 32px;
+}
+
+.body{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.logo {
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+}
+
+.logo_name {
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--sec-cul--);;
+    margin-left: 7px;
+}
+
+.menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 3.21vw;
+}
+
+.menu li{
+    padding: 4px 8px;
+    transition: 210ms;
+}
+
+.menu a {
+    text-decoration: none;
+    color: var(--sec-cul--);;
+    font-size: 16px;
+    padding: auto;
+    white-space: nowrap;
+    transition: 0.2s;
+}
+
+.menu a:hover{
+    color: var(--prim-cul--);
+    border-bottom: 1px solid var(--prim-cul--);
+    padding-bottom: 5px;
+}
+
+
+
+.instaleaza {
+    /*Butonul*/
+    width: 217.08px;
+    height: 52px;
+    background:  var(--prim-cul--);
+    border-radius: 17px;
+    border: 0;
+    /*Textul*/
+    color: #FFF;
+    font-weight: 500;
+    font-size: 16px;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.instaleaza:hover{
+    background-color:var(--sec-cul--);
+    color:  var(--prim-cul--);
+    transition: 0.7s;
+}
+
+
+                                                     section{margin:108px 0px 0px;}
+/*Sectiunea 1*/
+.sectiunea1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    gap:3.3vw;
+}
+
+.fa-solid{
+    display: none;
+}
+
+
+h1 {
+    font-family: 'Montserrat';
+    margin-top: 44px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 133.02%;
+}
+
+.sectiunea1 a{
+    text-decoration: none;
+}
+
+p {
+    padding: 0;
+    margin: 0 0 39px;
+    line-height: 179.02%;
+}
+
+.img1{
+    max-width: 637px;
+    max-height: 515px;
+    object-fit: cover;
+}
+
+
+.phone {
+    height: 16px;
+    width: 16px;
+    margin: 18px 0px 18px 8px;
+}
+
+.button1 {
+    width: 217.08px;
+    height: 52px;
+    background:  var(--prim-cul--);
+    border-radius: 17px;
+    border: 0;
+    font-size: 16px;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.button1:hover{
+    background-color:var(--sec-cul--);
+    color:  var(--prim-cul--);
+    transition: 0.7s;
+}
+
+.button1:hover .phone{
+    content:url(Images/Icon.1.svg);
+}
+
+
+
+.contac{
+    margin-left: 21px;
+}
+
+.minel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#toat{
+    bottom: 11px;
+    padding-bottom:7px;
+    border-bottom: var(--sec-cul--) solid 1px;
+    left: 262px;
+    transition: 0.4s;
+}
+
+#toat:hover{
+    color: var(--prim-cul--);
+    border-color: var(--prim-cul--);
+}
+/*Sectiunea 2*/
+
+.sectiunea2 {
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    gap:3.3vw;
+}
+
+.img2 {
+    max-width: 637px;
+    max-height: 544px;
+
+}
+   
+
+
+h4{
+    margin-top: 27px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.sectiunea2 a{
+    color: #FFF;
+    text-decoration: none;
+}
+
+#h2 {
+    margin-top: 27px;
+    margin-bottom: 30px;
+}
+
+#p2{
+    margin: 0 0 30px;
+}
+
+
+.toateinst{
+    /*Butonul*/
+    width: 217.08px;
+    height: 52px;
+    background:  var(--prim-cul--);
+    border-radius: 17px;
+    border: 0;
+    bottom: 0;
+    /*Textul*/
+    color: #FFF;
+    font-weight: 500;
+    font-size: 16px;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.toateinst:hover{
+    background-color:var(--sec-cul--);
+    color:  var(--prim-cul--);
+    transition: 0.7s;
+}
+
+.toateinst:hover .sageata{
+    content: url(Images/Vector2.svg);
+}
+
+.toateinst:hover a{
+    color: var(--prim-cul--);
+}
+
+
+#desn {
+    margin: 0;
+    color: var(--sec-cul--);
+    margin: 40px 0px 0px 0px;
+}
+
+/*Sectiunea 3*/
+.sectiunea3{ 
+    background-image: url(Images/Imaginea3.svg);
+    text-align: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+
+.center{
+    width: 720px;
+    height: 521px;
+    padding: 0;
+    border-radius: 26px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.elemente{
+    display: grid;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+#car{
+    line-height: 17px;
+    margin-top: 60px;
+
+    color: #D9D9D9;
+}
+
+#h1s3 {
+    color:  var(--prim-cul--);
+    font-size: 38px;
+    line-height: 148%;
+    margin-top: 17px;
+    margin-left: 23px;
+}
+
+#ps3{
+    color:  var(--prim-cul--);
+    line-height: 148%;
+    margin: 0 auto;
+    top: 233px;
+}
+
+.cartele{
+    margin-top: -203px;
+    display: grid;
+    grid-template-columns: 306px 306px 306px;
+    gap: 70px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cartela{
+    width: 306px;
+    height: 301px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 26px;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0px 8px 23px rgba(0, 0, 0, 0.05);
+}
+
+#icon {
+        margin-top: 51px;
+}
+
+
+#p3{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 123.02%;
+    margin-top: 19px;
+}
+
+h5{
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 123.02%;
+}
+
+
+/*Sectiunea 4*/
+.sectiunea4{
+    text-align: center;
+}
+#prod {
+    margin: 0 auto;
+}
+
+#hsec4 {
+    margin: 20px 0 0;
+}
+
+
+.backgr{
+    width: 271px;
+    height: 237px;
+    background-image: url("Images/Chitara1.svg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    box-shadow: 0px 8px 23px rgba(0, 0, 0, 0.05);
+}
+
+.backgr1{
+    width: 271px;
+    height: 237px;
+    background-image: url("Images/Chitara1.svg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    box-shadow: 0px 8px 23px rgba(0, 0, 0, 0.05);
+}
+.backgr2{
+    width: 271px;
+    height: 237px;
+    background-image: url("Images/Chitara2.svg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    box-shadow: 0px 8px 23px rgba(0, 0, 0, 0.05);
+}
+.backgr3 {
+    width: 271px;
+    height: 237px;
+    background-image: url("Images/Chitara3.svg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    box-shadow: 0px 8px 23px rgba(0, 0, 0, 0.05);
+}
+.backgr4{
+    width: 271px;
+    height: 237px;
+    background-image: url("Images/Chitara4.svg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    box-shadow: 0px 8px 23px rgba(0, 0, 0, 0.05);
+}
+.backgr5{
+    width: 271px;
+    height: 237px;
+    background-image: url("Images/Chitara5.svg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    box-shadow: 0px 8px 23px rgba(0, 0, 0, 0.05);
+}
+
+.backgr6{
+    width: 271px;
+    height: 237px;
+    background-image: url("Images/Chitara6.svg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    box-shadow: 0px 8px 23px rgba(0, 0, 0, 0.05);
+}
+.backgr7{
+    width: 271px;
+    height: 237px;
+    background-image: url("Images/Chitara7.svg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    box-shadow: 0px 8px 23px rgba(0, 0, 0, 0.05);
+}
+.backgr8{
+    width: 271px;
+    height: 237px;
+    background-image: url("Images/Chitara8.svg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    box-shadow: 0px 8px 23px rgba(0, 0, 0, 0.05);
+}
+
+.continutchit{
+    display: grid;
+    grid-template-columns: 271px 271px 271px 271px;
+    justify-content: space-between;
+    column-gap: 33px;
+}
+
+.chitara{
+    margin-top: 40px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.chitara img{
+    height: 236px;
+    background-color: var(--sec-cul--);
+    z-index: 1;
+}
+
+h3{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 117.7%;
+    margin-top: 50px;
+    margin-bottom: 38px;
+}
+
+
+.chitara button {
+    background-color:  var(--prim-cul--);
+    color: #FFF;
+    width: 142.64px;
+    height: 37px;   
+    border-radius: 17px;
+    border: 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 22px;
+    cursor: pointer;
+}
+
+.chitara button:hover{
+    background-color:var(--sec-cul--);
+    color:  var(--prim-cul--);
+    transition: 0.7s;
+}
+
+/*Sectiunea 5*/
+.sectiunea5 {
+    display: grid;
+    justify-content: center;
+}
+
+.contact{
+    margin: 0 auto;
+}
+
+h2{
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 123.02%;
+    text-align: left;
+    margin-top: 18px;
+    margin-bottom: 0;
+    margin-left: 45px;
+}
+
+#formular{
+    max-width: 580px;
+    min-height: 447px;
+}
+
+.sectiunea5 img{
+    margin-top: -130px;
+    height: 450px;
+}
+
+form{
+    width: 580px;
+    margin-top: -289px;
+}
+
+input{
+    width: 580px;
+    height: 44px;
+    background-color: #F5FFFF;
+    border:0;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    outline-style: none;
+}
+
+input[type="text"]{
+    padding-left: 20px;
+}
+
+input[type="text"]{
+    border: 0;
+}
+
+
+input[type="button"]{
+    border-radius: 17px;
+    background-color:var(--prim-cul--);
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+input[type="button"]:hover{
+    background-color:var(--sec-cul--);
+    color: var(--prim-cul--);
+}
+
+
+/*Subsol*/
+.subsol {
+    margin-top: 108px;
+    height: 283px;
+    background-color: var(--sec-cul--);
+    padding-bottom: 0;
+    display: flex;
+    justify-content: space-between; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.subsol .logo_name{
+    color: #FFF;
+}
+
+.logo1 {
+    margin-top: 36px;
+    margin-left: 172px;
+    margin-bottom: 208px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.meniu{
+    list-style-type: none;
+    margin-top: 45px;
+    padding: 0;
+}
+
+
+.meniu li{
+    padding: 4px 8px;
+    transition: 210ms;
+    margin-bottom: 18px;
+}
+
+.meniu a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    padding: auto;
+    white-space: nowrap;
+    transition: 0.2s;
+}
+
+.meniu a:hover{
+    color: var(--prim-cul--);
+    border-bottom: 1px solid var(--prim-cul--);
+    padding-bottom: 5px;
+}
+
+#cerc{
+    height: 49px;
+    width: 49px;
+    background-color: var(--prim-cul--);
+    border-radius: 50%;
+    margin-top: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+button{
+    border: 0;
+}
+
+.apelrap {
+    background-color:  #FFF;
+    color: var(--sec-cul--);
+    width: 172px;
+    height: 38px; 
+    border-radius: 17px;
+    border: 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    margin-right: 172px;
+    margin-top: 37px;
+    cursor: pointer;
+}
+
+.contacte #tel1{
+    color: #FFF;
+}
+
+.contacte #tel2{
+    color: #FFF;
+}
+
+.contacte .Cont1 {
+    margin-top: 30px;
+}
+
+.contacte .Cont2 {
+    margin-top: 19px;
+}
+
+.contacte .phone{
+    margin: 0 20px 0 0;
+}
+
+
+
+/******************************************************************************************/
+
+
+
+@media screen and (max-width:1192px) {
+
+    .wrapper {
+        height: 100%;
+    }
+
+    body{
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    button{
+        cursor: pointer;
+    }
+
+/*Headerul*/
+.headeru{
+    width: 94%;
+    margin-left: 3vw;
+}
+
+.menu a {
+    font-size: 1.5vw;
+}
+
+#logo {
+    width: 3.1vw;
+}
+
+.logo_name {
+    font-size: 1.7vw;
+    margin-left: 0.2vw;
+}
+
+.instaleaza {
+    /*Butonul*/
+    width: 18vw;
+    height: 4.36vw;
+    font-size: 1.34vw;
+}
+                                                                section{margin:10vw 0px 0px;}
+/*Sectiunea 1*/
+.sectiunea1 {
+    width: 100%;
+    grid-template-columns: 44.55vw 43.20vw;
+}
+
+
+h1 {
+    margin-top: 3.69vw;
+    font-size: 4.03vw;
+}
+
+
+
+p {
+     margin: 0 0 3.27vw;
+     font-size: 1.34vw;
+}
+
+.img1{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+.left{
+    width: 45vw;
+    height: 43.20vw;
+}
+
+.right{
+    width: 45vw;
+    height: 43.20vw;
+}
+
+.phone {
+    height: 1.34vw;
+    width: 1.34vw;
+}
+
+.button1 {
+    width: 18.20vw;
+    height: 4.36vw;
+    font-size: 1.34vw;
+}
+
+
+.contac{
+    margin-left: 1.76vw;
+}
+
+#toat{
+    bottom: 0.92vw;
+    left: 21.98vw;
+    font-size: 1.34vw;
+}
+
+/*Sectiunea 2*/
+
+
+.sectiunea2 {
+    width: 100%;
+    grid-template-columns: 50vw 44.55vw;
+}
+
+.sageata{
+    width: 2.01vw;
+    height: 1.34vw;
+}
+
+.img2 {
+    object-fit: contain;
+    width: 100%;
+}
+   
+
+h4{
+    margin-top: 2.27vw;
+    font-size: 1.17vw;
+}
+
+#h2 {
+    margin-top: 2.27vw;
+    margin-bottom: 2.52vw;
+}
+
+#p2{
+    margin: 0 0 2.52vw;
+}
+
+
+.toateinst{
+    /*Butonul*/
+    width: 18.20vw;
+    height: 4.36vw;
+    font-size: 1.34vw;
+}
+
+
+
+#desn {
+    margin: 3.36vw 0px 0px 0px;
+}
+/*Sectiunea 3*/
+
+.sectiunea3{
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+    width: 90vw;
+    background-image: none;
+}
+
+#car{
+    font-size: 14px;
+}
+
+.elemente{
+    margin-top: 0;
+    margin-left: 0;
+    justify-content: left;
+}
+
+.center{
+    margin-top: 5vw;
+    background: rgba(101, 101, 103, 0.39);
+    background-image: url(Images/Piano.svg);
+    gap: 4vw;
+    width: 90vw;
+    margin-left: 0;
+    margin-right: auto;
+    justify-content: left;
+}
+
+#h1s3 {
+    font-size: 3vw;
+    margin-top: 1.43vw;
+    margin-left: 1.93vw;
+}
+
+.cartele{
+    grid-template-columns: 306px 306px;
+    gap: 100px;
+}
+
+
+
+/*Sectiunea 4*/
+.sectiunea4{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+#prod {
+    font-size: 14px;
+}
+
+#hsec4 {
+    margin: 20px 0 0;
+}
+
+.continutchit{
+    grid-template-columns: 271px 271px 271px;
+    justify-content: center;
+    gap: 7vw;
+}
+
+.chitara{
+    margin-top: 4vw;
+    justify-content: space-around;
+}
+
+
+h2{
+    font-size: 28px;
+    margin-top: 0.94vw;
+}
+
+#contact{
+    font-size: 14px;
+}
+
+f
+/*Subsolul*/
+.subsol{
+    width: 100%;
+    margin-top: 9.06vw;
+    height: 23.74vw;    
+    gap: 2vw;
+}
+
+.meniu li{
+    margin-bottom: 1px;
+}
+
+
+.meniu{
+    margin-top: 2.77vw;
+}
+
+.logo1{
+    margin-bottom: 17.45vw;
+    margin-top: 2.77vw;
+    margin-left: 14.43vw;
+}
+
+.meniu a {
+    font-size: 1.34vw;
+}
+
+
+#cerc{
+    height: 4.1vw;
+    width: 4.11vw;
+    margin-top: 2.77vw;
+}
+
+#cerc img{
+    width: 1.34vw;
+    height: 2.01vw;
+}
+
+.apelrap {
+    width: 14.43vw;
+    height: 3.19vw; 
+    font-size: 1.34vw;
+    line-height: 1.59vw;
+    margin-right: 14.43vw;
+    margin-top: 3.10vw;
+}
+
+.contacte .Cont1 {
+    margin-top: 2.52vw;
+}
+
+.contacte .Cont2 {
+    margin-top: 1.59vw;
+}
+
+.contacte .phone{
+    margin: 0 1.68vw 0 0;
+}
+
+.contacte #tel1{
+    font-size: 1.34vw;
+}
+
+.contacte #tel2{
+    font-size: 1.34vw;
+}
+
+    footer{
+            padding: 0px 0px;
+          }
+        
+        }
+
+
+@media screen and (max-width:943px) {
+
+        .sectiunea3{
+            height: 100%;
+            background-size: contain;
+        }
+
+        .headeru{
+            display: flex;
+            justify-content: space-between;
+        }
+        .cartele{
+            grid-template-columns: 306px;
+        }
+
+        .menu{
+            display: none;
+          }
+        
+        .logo_name {
+            font-size: 20px;
+            line-height: 24px;
+            color: var(--sec-cul--);;
+            margin-left: 7px;
+        }
+
+        .instaleaza{
+            width: 140px;
+        }
+    
+        .fa-solid{
+            display:block;
+            float: left;
+            font-size: 20px;
+            margin-left: 110px;
+        }
+
+        .cartele{
+            gap: 30px;
+        }
+        
+        .cartela .cartela1{
+            margin-top: 0;
+        }
+        
+/*Sectiunea 4*/
+        .continutchit{
+            display: grid;
+            grid-template-columns: 271px 271px;
+            justify-content: center;
+            gap: 10vw;
+        }
+    
+    }
+
+
+
+@media screen and (max-width:620px) {
+
+    .headeru{
+        width: 70%;
+    }
+
+    .instaleaza{
+        display: none;
+    }
+
+
+    .logo {
+        width: 100%;
+        height: 100%;
+    }
+
+    .menu{
+        display: none;
+      }
+    
+    .logo_name {
+        font-size: 20px;
+        line-height: 24px;
+        color: var(--sec-cul--);;
+        margin-left: 7px;
+    }
+    
+
+    .menu a{
+        font-size: 10px;
+    }
+
+    /*Sectiunea1*/
+    .sectiunea1 {
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+        padding-left: 0;
+        width: 110%;
+    }
+
+    .right{
+        display: none;
+    }
+
+    
+h1 {
+    font-family: 'Montserrat';
+    font-size: 24px;
+}
+
+.sectiunea1 a{
+    text-decoration: none;
+}
+
+p {
+    font-size: 10px;
+}
+
+.phone {
+    height: 10px;
+    width: 10px;
+    margin: 18px 0px 18px 8px;
+}
+
+.sectiunea2 {
+    width: 110%;
+    margin-left: 20px;
+}
+
+.sectiunea2{
+    justify-content: center;
+}
+
+.left2{
+    display: none;
+}
+
+.sectiunea3{
+    width: 80%;    
+}
+
+#h1s3{
+    font-size: 14px;
+}
+
+#ps3{
+    font-size: 12px;
+}
+
+#piano{
+    display: none;
+}
+
+.center{
+    background-size:auto;
+}
+
+
+
+.sectiunea4{
+    width: 80% ;
+}
+
+.sectiunea5{
+    width: 82%;
+}
+
+    .cartele{
+        grid-template-columns: 306px;  
+        gap: 12vw;
+    }
+
+    .cartela{
+        border: 2px solid #08E8E8   ;
+    }
+
+
+    
+
+    .continutchit{
+        display: grid;
+        grid-template-columns: 271px;
+    }
+}
